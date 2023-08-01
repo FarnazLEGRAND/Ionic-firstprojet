@@ -5,7 +5,8 @@ const routes: Routes = [
   
   {
     path: '',
-    redirectTo: '',
+    // behesh in adress ra midaham
+    redirectTo: 'recipes',
     pathMatch: 'full'
   },
   {

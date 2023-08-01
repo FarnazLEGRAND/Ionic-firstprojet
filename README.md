@@ -32,3 +32,6 @@ path: ':recipeId',
 loadChildren: () => import ('. /recipes/recipe-detail/recipe-detail.module'). then (m => m. RecipesPageM
 },
 ]
+
+______
+cree recipes/recipe-item dans component pour eviter repeter le code
